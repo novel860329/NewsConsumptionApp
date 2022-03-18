@@ -1,0 +1,1267 @@
+{
+  "data": {
+    "questions": [
+      {
+        "id": 1,
+        "question_type_id": 1,
+        "question_type_name": "Text",
+        "question_name": "請問你今天大約轉傳幾則新聞給別人？(請填阿拉伯數字。若沒有轉傳任何新聞，請填0)",
+        "question_item": [
+          {
+            "answer_id": "1",
+            "name": "轉傳新聞數量"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "question_type_id": 1,
+        "question_type_name": "Radio",
+        "question_name": "請回想你今天轉傳新聞當中<b><u>印象最深刻的一則</u></b>，請問這則新聞與哪個主題最相關？",
+        "question_item": [
+          {
+            "answer_id": "7",
+            "name": "政府與政治(例如：政治人物、中央與地方政府、政黨、兩岸、外交)"
+          },{
+            "answer_id": "8",
+            "name": "經濟、商業或財經(例如：金融市場、投資、企管行銷)"
+          },
+          {
+            "answer_id": "9",
+            "name": "社會議題(例如：人權、長照、核能、空汙)"
+          },
+          {
+            "answer_id": "10",
+            "name": "運動(例如：各式業餘或職業運動賽事)"
+          },{
+            "answer_id": "11",
+            "name": "科學或科技(例如：資訊科技、科學新知)"
+          },
+          {
+            "answer_id": "12",
+            "name": "健康(例如：保健、養身、醫療)"
+          },{
+            "answer_id": "13",
+            "name": "災難或意外(例如：地震、火災)"
+          },
+          {
+            "answer_id": "14",
+            "name": "奇聞軼事(例如：不明生物、11胞胎、男人生育)"
+          },
+          {
+            "answer_id": "15",
+            "name": "娛樂(例如：音樂、藝人、電影、戲劇)"
+          },
+          {
+            "answer_id": "16",
+            "name": "生活日常(例如：天氣、交通)"
+          },
+          {
+            "answer_id": "17",
+            "name": "其他"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "question_type_id": 3,
+        "question_type_name": "CheckBox",
+        "question_name": "請問你透過什麼管道把這則新聞轉傳給別人？(可複選)",
+        "question_item": [
+          {
+            "answer_id": "18",
+            "name": "Facebook"
+          },
+          {
+            "answer_id": "19",
+            "name": "FB Messenger"
+          },
+          {
+            "answer_id": "20",
+            "name": "Line聊天室"
+          },
+          {
+            "answer_id": "21",
+            "name": "Instagram"
+          },
+          {
+            "answer_id": "22",
+            "name": "打電話"
+          },
+          {
+            "answer_id": "23",
+            "name": "面對面"
+          },
+          {
+            "answer_id": "24",
+            "name": "其他"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "question_type_id": 3,
+        "question_type_name": "CheckBox",
+        "question_name": "請問你轉傳這則新聞的主要對象是誰？(可複選)",
+        "question_item": [
+          {
+            "answer_id": "25",
+            "name": "與興趣相關的社團或群組"
+          },
+          {
+            "answer_id": "26",
+            "name": "伴侶（包含夫妻、男女朋友、同居人）"
+          },
+          {
+            "answer_id": "27",
+            "name": "家人或親戚"
+          },
+          {
+            "answer_id": "28",
+            "name": "朋友"
+          },
+          {
+            "answer_id": "29",
+            "name": "同事或同學"
+          },
+          {
+            "answer_id": "30",
+            "name": "點頭之交"
+          },
+          {
+            "answer_id": "31",
+            "name": "鄰居"
+          },
+          {
+            "answer_id": "32",
+            "name": "陌生人"
+          },
+          {
+            "answer_id": "33",
+            "name": "其他"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "question_type_id": 3,
+        "question_type_name": "CheckBox",
+        "question_name": "請問你轉傳這則新聞給別人的原因是？(可複選)",
+        "question_item": [
+          {
+            "answer_id": "34",
+            "name": "內容很有用"
+          },
+          {
+            "answer_id": "35",
+            "name": "內容很有趣"
+          },
+          {
+            "answer_id": "36",
+            "name": "內容很感人"
+          },
+          {
+            "answer_id": "37",
+            "name": "內容很令人生氣"
+          },
+          {
+            "answer_id": "38",
+            "name": "你不認同這則新聞內容"
+          },
+          {
+            "answer_id": "39",
+            "name": "為了跟別人保持聯繫"
+          },
+          {
+            "answer_id": "40",
+            "name": "想獲得別人的意見"
+          },
+          {
+            "answer_id": "41",
+            "name": "想查證內容真假"
+          },
+          {
+            "answer_id": "42",
+            "name": "其他"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "question_type_id": 1,
+        "question_type_name": "Radio",
+        "question_name": "請問今天有沒有碰到你懷疑內容有<b>「錯誤」</b>或者<b>「會誤導人」</b>的新聞？",
+        "question_item": [
+          {
+            "answer_id": "43",
+            "name": "有"
+          },
+          {
+            "answer_id": "44",
+            "name": "沒有"
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "question_type_id": 5,
+        "question_type_name": "Text",
+        "question_name": "請問這則內容可能有錯誤的新聞標題是什麼？(請複製貼上標題，或自行輸入標題，越完整越好)",
+        "question_item": [
+          {
+            "answer_id": "45",
+            "name": "查證新聞標題"
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "question_type_id": 1,
+        "question_type_name": "Radio",
+        "question_name": "請問你透過什麼管道收到這則可能有錯誤的新聞？",
+        "question_item": [
+          {
+            "answer_id": "151",
+            "name": "Facebook"
+          },{
+            "answer_id": "152",
+            "name": "FB Messenger"
+          },
+          {
+            "answer_id": "153",
+            "name": "LINE聊天室"
+          },
+          {
+            "answer_id": "154",
+            "name": "Instagram"
+          },
+          {
+            "answer_id": "155",
+            "name": "打電話"
+          },
+          {
+            "answer_id": "156",
+            "name": "面對面"
+          },
+          {
+            "answer_id": "157",
+            "name": "其他"
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "question_type_id": 1,
+        "question_type_name": "Radio",
+        "question_name": "請問這則可能有錯誤的新聞是誰轉寄或分享給你的？",
+        "question_item": [
+          {
+            "answer_id": "28",
+            "name": "其他媒體平台或組織(如：公司行號、公家機關、學校)"
+          },
+          {
+            "answer_id": "29",
+            "name": "所追蹤的名人 (如：網紅)"
+          },
+          {
+            "answer_id": "30",
+            "name": "與興趣相關的社團或群組"
+          },
+          {
+            "answer_id": "31",
+            "name": "伴侶 (包含夫妻、男女朋友、同居人)"
+          },{
+            "answer_id": "32",
+            "name": "家人或親戚"
+          },
+          {
+            "answer_id": "33",
+            "name": "朋友"
+          },
+          {
+            "answer_id": "34",
+            "name": "同事或同學"
+          },
+          {
+            "answer_id": "35",
+            "name": "點頭之交"
+          },
+          {
+            "answer_id": "36",
+            "name": "鄰居"
+          },
+          {
+            "answer_id": "37",
+            "name": "陌生人"
+          },
+          {
+            "answer_id": "38",
+            "name": "不知道"
+          },
+          {
+            "answer_id": "39",
+            "name": "其他"
+          }
+        ]
+      },
+
+      {
+        "id": 10,
+        "question_type_id": 3,
+        "question_type_name": "CheckBox",
+        "question_name": "請問你懷疑這則新聞可能含有錯誤資訊的原因是？(可複選)",
+        "question_item": [
+          {
+            "answer_id": "46",
+            "name": "依自己的知識、經驗等判斷"
+          },
+          {
+            "answer_id": "47",
+            "name": "親朋好友告訴你"
+          },
+          {
+            "answer_id": "48",
+            "name": "與親朋好友討論"
+          },
+          {
+            "answer_id": "49",
+            "name": "新聞或其他專業人士有說明"
+          },
+          {
+            "answer_id": "50",
+            "name": "其他"
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "question_type_id": 1,
+        "question_type_name": "Radio",
+        "question_name": "請問你有沒有進一步確認這則新聞含有錯誤資訊?",
+        "question_item": [
+          {
+            "answer_id": "51",
+            "name": "有"
+          },
+          {
+            "answer_id": "52",
+            "name": "沒有"
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "question_type_id": 3,
+        "question_type_name": "CheckBox",
+        "question_name": "請問你主要透過什麼方式來進一步確認這則新聞是否含有錯誤資訊？(可複選)",
+        "question_item": [
+          {
+            "answer_id": "53",
+            "name": "參考那則新聞下方的留言"
+          },
+          {
+            "answer_id": "54",
+            "name": "搜尋那則新聞的相關訊息(例如：用Google搜尋其他資料、查詢其他新聞)"
+          },
+          {
+            "answer_id": "55",
+            "name": "使用「事實查核機制」(例如：MyGoPen、臺灣事實查核中心)"
+          },
+          {
+            "answer_id": "56",
+            "name": "其他"
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "question_type_id": 4,
+        "question_type_name": "SeekBar",
+        "question_name": "請問你看到新聞多久之後進一步確認這則新聞是否含有錯誤資訊？(若立即確認，請填0時0分)",
+        "question_item": [
+          {
+            "answer_id": "57",
+            "name": "小時 (0 ~ 12)"
+          },{
+            "answer_id": "58",
+            "name": "分鐘 (0 ~ 59)"
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "question_type_id": 3,
+        "question_type_name": "CheckBox",
+        "question_name": "針對這則新聞，請問你後續如何處理？(可複選)",
+        "question_item": [
+          {
+            "answer_id": "59",
+            "name": "沒有做任何事"
+          },
+          {
+            "answer_id": "60",
+            "name": "沒有/不會再看這則新聞"
+          },
+          {
+            "answer_id": "61",
+            "name": "沒有/不會再看該新聞來源的報導"
+          },
+          {
+            "answer_id": "62",
+            "name": "提醒親友該則新聞可能是假新聞"
+          },
+          {
+            "answer_id": "63",
+            "name": "與親友討論該則新聞"
+          },
+          {
+            "answer_id": "64",
+            "name": "在留言區舉發該則新聞可能是假新聞"
+          },
+          {
+            "answer_id": "65",
+            "name": "分享澄清該則新聞的貼文"
+          },
+          {
+            "answer_id": "66",
+            "name": "連絡發佈假新聞的人，請他們刪除該新聞"
+          },
+          {
+            "answer_id": "67",
+            "name": "其他"
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "question_type_id": 6,
+        "question_type_name": "MultiText",
+        "question_name": "請回想今天一整天在<b><u>手機上</u></b>所看到的新聞，你覺得今天最重要的<b><u>「新聞事件」</u></b>有哪些？請貼上新聞標題，或簡單描述新聞事件，例如：「趙少康返國民黨」、「緬甸政變」、「週一寒流」、「戴資穎年終冠軍」、「疫情升溫旅館退房」、「屈中恆婚姻危機」",
+        "question_item": [
+          {
+            "answer_id": "68",
+            "name": "最重要事件"
+          },
+          {
+            "answer_id": "69",
+            "name": "第二重要事件"
+          },
+          {
+            "answer_id": "70",
+            "name": "第三重要事件"
+          },
+          {
+            "answer_id": "71",
+            "name": "都沒有"
+          }
+        ]
+      },
+      {
+        "id": 16,
+        "question_type_id": 1,
+        "question_type_name": "Radio",
+        "question_name": "空白頁",
+        "question_item": [
+        ]
+      },
+
+      {
+        "id": 17,
+        "question_type_id": 7,
+        "question_type_name": "OneSeekBar",
+        "question_name": "請問你對於[]這個事件與<b><u>你自己的生活</u></b>多相關？0表示兩者沒有關聯，100表示極度相關",
+        "question_item": [
+          {
+            "answer_id": "66",
+            "name": "沒有關聯～極度相關(0～100)"
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "question_type_id": 7,
+        "question_type_name": "OneSeekBar",
+        "question_name": "請問你對於[]這個事件與<b><u>你自己的生活</u></b>多相關？0表示兩者沒有關聯，100表示極度相關",
+        "question_item": [
+          {
+            "answer_id": "67",
+            "name": "沒有關聯～極度相關(0～100)"
+          }
+        ]
+      },
+      {
+        "id": 19,
+        "question_type_id": 7,
+        "question_type_name": "OneSeekBar",
+        "question_name": "請問你對於[]這個事件與<b><u>你自己的生活</u></b>多相關？0表示兩者沒有關聯，100表示極度相關",
+        "question_item": [
+          {
+            "answer_id": "68",
+            "name": "沒有關聯～極度相關(0～100)"
+          }
+        ]
+      },
+
+      {
+        "id": 20,
+        "question_type_id": 7,
+        "question_type_name": "OneSeekBar",
+        "question_name": "請問你對於[]這個事件與<b><u>整體社會</u></b>多相關？0表示兩者沒有關聯，100表示極度相關",
+        "question_item": [
+          {
+            "answer_id": "69",
+            "name": "沒有關聯～極度相關(0～100)"
+          }
+        ]
+      },
+      {
+        "id": 21,
+        "question_type_id": 7,
+        "question_type_name": "OneSeekBar",
+        "question_name": "請問你對於[]這個事件與<b><u>整體社會</u></b>多相關？0表示兩者沒有關聯，100表示極度相關",
+        "question_item": [
+          {
+            "answer_id": "70",
+            "name": "沒有關聯～極度相關(0～100)"
+          }
+        ]
+      },
+      {
+        "id": 22,
+        "question_type_id": 7,
+        "question_type_name": "OneSeekBar",
+        "question_name": "請問你對於[]這個事件與<b><u>整體社會</u></b>多相關？0表示兩者沒有關聯，100表示極度相關",
+        "question_item": [
+          {
+            "answer_id": "71",
+            "name": "沒有關聯～極度相關(0～100)"
+          }
+        ]
+      },
+
+      {
+        "id": 23,
+        "question_type_id": 7,
+        "question_type_name": "OneSeekBar",
+        "question_name": "請問你覺得[]與[]相關的程度有多強？0表示兩者沒有關聯，100表示兩者極度相關，可視為同一個事件。",
+        "question_item": [
+          {
+            "answer_id": "72",
+            "name": "沒有關聯～極度相關(0～100)"
+          }
+        ]
+      },
+      {
+        "id": 24,
+        "question_type_id": 7,
+        "question_type_name": "OneSeekBar",
+        "question_name": "請問你覺得[]與[]相關的程度有多強？0表示兩者沒有關聯，100表示兩者極度相關，可視為同一個事件。",
+        "question_item": [
+          {
+            "answer_id": "73",
+            "name": "沒有關聯～極度相關(0～100)"
+          }
+        ]
+      },
+      {
+        "id": 25,
+        "question_type_id": 7,
+        "question_type_name": "OneSeekBar",
+        "question_name": "請問你覺得[]與[]相關的程度有多強？0表示兩者沒有關聯，100表示兩者極度相關，可視為同一個事件。",
+        "question_item": [
+          {
+            "answer_id": "74",
+            "name": "沒有關聯～極度相關(0～100)"
+          }
+        ]
+      },
+
+      {
+        "id": 26,
+        "question_type_id": 1,
+        "question_type_name": "Radio",
+        "question_name": "請問你對於[]這個事件的想法或感覺有多正向？",
+        "question_item": [
+          {
+            "answer_id": "75",
+            "name": "非常低"
+          },
+          {
+            "answer_id": "76",
+            "name": "低"
+          },
+          {
+            "answer_id": "77",
+            "name": "有點低"
+          },
+          {
+            "answer_id": "78",
+            "name": "不低也不高"
+          },{
+            "answer_id": "79",
+            "name": "有點高"
+          },
+          {
+            "answer_id": "80",
+            "name": "高"
+          },
+          {
+            "answer_id": "81",
+            "name": "非常高"
+          },
+          {
+            "answer_id": "82",
+            "name": "不適用：對這個事件沒有任何想法或感覺"
+          }
+        ]
+      },
+      {
+        "id": 27,
+        "question_type_id": 1,
+        "question_type_name": "Radio",
+        "question_name": "請問你對於[]這個事件的想法或感覺有多負向？",
+        "question_item": [
+          {
+            "answer_id": "75",
+            "name": "非常低"
+          },
+          {
+            "answer_id": "76",
+            "name": "低"
+          },
+          {
+            "answer_id": "77",
+            "name": "有點低"
+          },
+          {
+            "answer_id": "78",
+            "name": "不低也不高"
+          },{
+            "answer_id": "79",
+            "name": "有點高"
+          },
+          {
+            "answer_id": "80",
+            "name": "高"
+          },
+          {
+            "answer_id": "81",
+            "name": "非常高"
+          },
+          {
+            "answer_id": "82",
+            "name": "不適用：對這個事件沒有任何想法或感覺"
+          }
+        ]
+      },
+
+      {
+        "id": 28,
+        "question_type_id": 1,
+        "question_type_name": "Radio",
+        "question_name": "請問你對於[]這個事件的想法或感覺有多正向？",
+        "question_item": [
+          {
+            "answer_id": "75",
+            "name": "非常低"
+          },
+          {
+            "answer_id": "76",
+            "name": "低"
+          },
+          {
+            "answer_id": "77",
+            "name": "有點低"
+          },
+          {
+            "answer_id": "78",
+            "name": "不低也不高"
+          },{
+            "answer_id": "79",
+            "name": "有點高"
+          },
+          {
+            "answer_id": "80",
+            "name": "高"
+          },
+          {
+            "answer_id": "81",
+            "name": "非常高"
+          },
+          {
+            "answer_id": "82",
+            "name": "不適用：對這個事件沒有任何想法或感覺"
+          }
+        ]
+      },
+      {
+        "id": 29,
+        "question_type_id": 1,
+        "question_type_name": "Radio",
+        "question_name": "請問你對於[]這個事件的想法或感覺有多負向？",
+        "question_item": [
+          {
+            "answer_id": "75",
+            "name": "非常低"
+          },
+          {
+            "answer_id": "76",
+            "name": "低"
+          },
+          {
+            "answer_id": "77",
+            "name": "有點低"
+          },
+          {
+            "answer_id": "78",
+            "name": "不低也不高"
+          },{
+            "answer_id": "79",
+            "name": "有點高"
+          },
+          {
+            "answer_id": "80",
+            "name": "高"
+          },
+          {
+            "answer_id": "81",
+            "name": "非常高"
+          },
+          {
+            "answer_id": "82",
+            "name": "不適用：對這個事件沒有任何想法或感覺"
+          }
+        ]
+      },
+
+      {
+        "id": 30,
+        "question_type_id": 1,
+        "question_type_name": "Radio",
+        "question_name": "請問你對於[]這個事件的想法或感覺有多正向？",
+        "question_item": [
+          {
+            "answer_id": "75",
+            "name": "非常低"
+          },
+          {
+            "answer_id": "76",
+            "name": "低"
+          },
+          {
+            "answer_id": "77",
+            "name": "有點低"
+          },
+          {
+            "answer_id": "78",
+            "name": "不低也不高"
+          },{
+            "answer_id": "79",
+            "name": "有點高"
+          },
+          {
+            "answer_id": "80",
+            "name": "高"
+          },
+          {
+            "answer_id": "81",
+            "name": "非常高"
+          },
+          {
+            "answer_id": "82",
+            "name": "不適用：對這個事件沒有任何想法或感覺"
+          }
+        ]
+      },
+      {
+        "id": 31,
+        "question_type_id": 1,
+        "question_type_name": "Radio",
+        "question_name": "請問你對於[]這個事件的想法或感覺有多負向？",
+        "question_item": [
+          {
+            "answer_id": "75",
+            "name": "非常低"
+          },
+          {
+            "answer_id": "76",
+            "name": "低"
+          },
+          {
+            "answer_id": "77",
+            "name": "有點低"
+          },
+          {
+            "answer_id": "78",
+            "name": "不低也不高"
+          },{
+            "answer_id": "79",
+            "name": "有點高"
+          },
+          {
+            "answer_id": "80",
+            "name": "高"
+          },
+          {
+            "answer_id": "81",
+            "name": "非常高"
+          },
+          {
+            "answer_id": "82",
+            "name": "不適用：對這個事件沒有任何想法或感覺"
+          }
+        ]
+      },
+
+      {
+        "id": 32,
+        "question_type_id": 3,
+        "question_type_name": "CheckBox",
+        "question_name": "請問你今天有沒有跟別人談論或討論下列哪些事件(包括面對面、在臉書或 LINE上留言而互動，對方是認識或不認識都算)？(可複選)",
+        "question_item": [
+          {
+            "answer_id": "99",
+            "name": ""
+          },
+          {
+            "answer_id": "100",
+            "name": ""
+          },
+          {
+            "answer_id": "101",
+            "name": ""
+          },
+          {
+            "answer_id": "102",
+            "name": "都沒有"
+          }
+        ]
+      },
+      {
+        "id": 33,
+        "question_type_id": 1,
+        "question_type_name": "Radio",
+        "question_name": "空白頁",
+        "question_item": [
+        ]
+      },
+
+      {
+        "id": 34,
+        "question_type_id": 3,
+        "question_type_name": "CheckBox",
+        "question_name": "針對[]，請問你一起談論或討論對象是誰？(可複選)",
+        "question_item": [
+          {
+            "answer_id": "25",
+            "name": "與興趣相關的社團或群組"
+          },
+          {
+            "answer_id": "26",
+            "name": "伴侶（包含夫妻、男女朋友、同居人）"
+          },
+          {
+            "answer_id": "27",
+            "name": "家人或親戚"
+          },
+          {
+            "answer_id": "28",
+            "name": "朋友"
+          },
+          {
+            "answer_id": "29",
+            "name": "同事或同學"
+          },
+          {
+            "answer_id": "30",
+            "name": "點頭之交"
+          },
+          {
+            "answer_id": "31",
+            "name": "鄰居"
+          },
+          {
+            "answer_id": "32",
+            "name": "陌生人"
+          },
+          {
+            "answer_id": "33",
+            "name": "其他"
+          }
+        ]
+      },
+      {
+        "id": 35,
+        "question_type_id": 1,
+        "question_type_name": "Radio",
+        "question_name": "針對[]，你覺得你一起談論或討論的對象跟你的看法相不相同？",
+        "question_item": [
+          {
+            "answer_id": "127",
+            "name": "完全不同"
+          },{
+            "answer_id": "128",
+            "name": "幾乎不同"
+          },
+          {
+            "answer_id": "129",
+            "name": "少數相同"
+          },
+          {
+            "answer_id": "130",
+            "name": "一些相同"
+          },
+          {
+            "answer_id": "131",
+            "name": "多數相同"
+          },
+          {
+            "answer_id": "132",
+            "name": "幾乎相同"
+          },
+          {
+            "answer_id": "133",
+            "name": "完全相同"
+          },
+          {
+            "answer_id": "133",
+            "name": "不適用：討論的對象對這個事件沒有看法"
+          }
+        ]
+      },
+      {
+        "id": 36,
+        "question_type_id": 3,
+        "question_type_name": "CheckBox",
+        "question_name": "針對[]，請問你是透過什麼方式跟別人談論或討論？(可複選)",
+        "question_item": [
+          {
+            "answer_id": "151",
+            "name": "Facebook"
+          },{
+            "answer_id": "152",
+            "name": "FB Messenger"
+          },
+          {
+            "answer_id": "153",
+            "name": "LINE聊天室"
+          },
+          {
+            "answer_id": "154",
+            "name": "Instagram"
+          },
+          {
+            "answer_id": "155",
+            "name": "打電話"
+          },
+          {
+            "answer_id": "156",
+            "name": "面對面"
+          },
+          {
+            "answer_id": "157",
+            "name": "其他"
+          }
+        ]
+      },
+
+      {
+        "id": 37,
+        "question_type_id": 3,
+        "question_type_name": "CheckBox",
+        "question_name": "針對[]，請問你一起談論或討論對象是誰？(可複選)",
+        "question_item": [
+          {
+            "answer_id": "25",
+            "name": "與興趣相關的社團或群組"
+          },
+          {
+            "answer_id": "26",
+            "name": "伴侶（包含夫妻、男女朋友、同居人）"
+          },
+          {
+            "answer_id": "27",
+            "name": "家人或親戚"
+          },
+          {
+            "answer_id": "28",
+            "name": "朋友"
+          },
+          {
+            "answer_id": "29",
+            "name": "同事或同學"
+          },
+          {
+            "answer_id": "30",
+            "name": "點頭之交"
+          },
+          {
+            "answer_id": "31",
+            "name": "鄰居"
+          },
+          {
+            "answer_id": "32",
+            "name": "陌生人"
+          },
+          {
+            "answer_id": "33",
+            "name": "其他"
+          }
+        ]
+      },
+      {
+        "id": 38,
+        "question_type_id": 1,
+        "question_type_name": "Radio",
+        "question_name": "針對[]，你覺得你一起談論或討論的對象跟你的看法相不相同？",
+        "question_item": [
+          {
+            "answer_id": "135",
+            "name": "完全不同"
+          },{
+            "answer_id": "136",
+            "name": "幾乎不同"
+          },
+          {
+            "answer_id": "137",
+            "name": "少數相同"
+          },
+          {
+            "answer_id": "138",
+            "name": "一些相同"
+          },
+          {
+            "answer_id": "139",
+            "name": "多數相同"
+          },
+          {
+            "answer_id": "140",
+            "name": "幾乎相同"
+          },
+          {
+            "answer_id": "141",
+            "name": "完全相同"
+          },
+          {
+            "answer_id": "142",
+            "name": "不適用：討論的對象對這個事件沒有看法"
+          }
+        ]
+      },
+      {
+        "id": 39,
+        "question_type_id": 3,
+        "question_type_name": "CheckBox",
+        "question_name": "針對[]，請問你是透過什麼方式跟別人談論或討論？(可複選)",
+        "question_item": [
+          {
+            "answer_id": "158",
+            "name": "Facebook"
+          },{
+            "answer_id": "159",
+            "name": "FB Messenger"
+          },
+          {
+            "answer_id": "160",
+            "name": "LINE聊天室"
+          },
+          {
+            "answer_id": "161",
+            "name": "Instagram"
+          },
+          {
+            "answer_id": "162",
+            "name": "打電話"
+          },
+          {
+            "answer_id": "163",
+            "name": "面對面"
+          },
+          {
+            "answer_id": "164",
+            "name": "其他"
+          }
+        ]
+      },
+
+      {
+        "id": 40,
+        "question_type_id": 3,
+        "question_type_name": "CheckBox",
+        "question_name": "針對[]，請問你一起談論或討論對象是誰？(可複選)",
+        "question_item": [
+          {
+            "answer_id": "25",
+            "name": "與興趣相關的社團或群組"
+          },
+          {
+            "answer_id": "26",
+            "name": "伴侶（包含夫妻、男女朋友、同居人）"
+          },
+          {
+            "answer_id": "27",
+            "name": "家人或親戚"
+          },
+          {
+            "answer_id": "28",
+            "name": "朋友"
+          },
+          {
+            "answer_id": "29",
+            "name": "同事或同學"
+          },
+          {
+            "answer_id": "30",
+            "name": "點頭之交"
+          },
+          {
+            "answer_id": "31",
+            "name": "鄰居"
+          },
+          {
+            "answer_id": "32",
+            "name": "陌生人"
+          },
+          {
+            "answer_id": "33",
+            "name": "其他"
+          }
+        ]
+      },
+      {
+        "id": 41,
+        "question_type_id": 1,
+        "question_type_name": "Radio",
+        "question_name": "針對[]，你覺得你一起談論或討論的對象跟你的看法相不相同？",
+        "question_item": [
+          {
+            "answer_id": "143",
+            "name": "完全不同"
+          },{
+            "answer_id": "144",
+            "name": "幾乎不同"
+          },
+          {
+            "answer_id": "145",
+            "name": "少數相同"
+          },
+          {
+            "answer_id": "146",
+            "name": "一些相同"
+          },
+          {
+            "answer_id": "147",
+            "name": "多數相同"
+          },
+          {
+            "answer_id": "148",
+            "name": "幾乎相同"
+          },
+          {
+            "answer_id": "149",
+            "name": "完全相同"
+          },
+          {
+            "answer_id": "150",
+            "name": "不適用：討論的對象對這個事件沒有看法"
+          }
+        ]
+      },
+      {
+        "id": 42,
+        "question_type_id": 3,
+        "question_type_name": "CheckBox",
+        "question_name": "針對[]，請問你是透過什麼方式跟別人談論或討論？(可複選)",
+        "question_item": [
+          {
+            "answer_id": "165",
+            "name": "Facebook"
+          },{
+            "answer_id": "166",
+            "name": "FB Messenger"
+          },
+          {
+            "answer_id": "167",
+            "name": "LINE聊天室"
+          },
+          {
+            "answer_id": "168",
+            "name": "Instagram"
+          },
+          {
+            "answer_id": "169",
+            "name": "打電話"
+          },
+          {
+            "answer_id": "170",
+            "name": "面對面"
+          },
+          {
+            "answer_id": "171",
+            "name": "其他"
+          }
+        ]
+      },
+
+      {
+        "id": 43,
+        "question_type_id": 8,
+        "question_type_name": "MultiSeekBar",
+        "question_name": "請問你今天從下列管道獲取新聞的時間有多少(若無，請填0時0分)？",
+        "question_item": [
+          {
+            "answer_id": "172",
+            "name": "電視(小時)"
+          },{
+            "answer_id": "173",
+            "name": "電視(分鐘)"
+          },
+          {
+            "answer_id": "174",
+            "name": "廣播(如:廣播電台、Podcast)(小時)"
+          },{
+            "answer_id": "175",
+            "name": "廣播(如:廣播電台、Podcast)(分鐘)"
+          },
+          {
+            "answer_id": "176",
+            "name": "紙本報紙(小時)"
+          },{
+            "answer_id": "177",
+            "name": "紙本報紙(分鐘)"
+          },
+          {
+            "answer_id": "178",
+            "name": "電腦(小時)"
+          },{
+            "answer_id": "179",
+            "name": "電腦(分鐘)"
+          },
+          {
+            "answer_id": "180",
+            "name": "平板(小時)"
+          },{
+            "answer_id": "181",
+            "name": "平板(分鐘)"
+          },
+          {
+            "answer_id": "182",
+            "name": "手機(小時)"
+          },{
+            "answer_id": "183",
+            "name": "手機(分鐘)"
+          },
+          {
+            "answer_id": "184",
+            "name": "人際溝通(從別人口中獲取新聞資訊)(小時)"
+          },{
+            "answer_id": "185",
+            "name": "人際溝通(從別人口中獲取新聞資訊)(分鐘)"
+          }
+        ]
+      }
+    ]
+  },
+  "status": true,
+  "message": "The data was fetched successfully"
+}

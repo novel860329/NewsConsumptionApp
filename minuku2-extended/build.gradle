@@ -1,0 +1,91 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 28
+    buildToolsVersion '28.0.3'
+
+    defaultConfig {
+        minSdkVersion 16
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+        //javaComplieOptions SECTION
+        javaCompileOptions {
+            annotationProcessorOptions {
+                arguments = ["room.schemaLocation":"$projectDir/schemas".toString()]
+            }
+        }
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    buildTypes.each {
+        it.buildConfigField 'String', 'UNIQUE_FIREBASE_ROOT_URL', UniqueFirebaseRootUrl
+    }
+
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'junit:junit:4.12'
+    implementation 'com.squareup.okhttp3:okhttp:3.12.0'
+    //noinspection GradleCompatible
+    implementation 'com.android.support:appcompat-v7:26.1.0'
+    implementation project(':minukucore')
+    /* Firebase SDK */
+    implementation 'com.firebase:firebase-client-android:2.4.0'
+    /* Firebase UI */
+    implementation 'com.firebaseui:firebase-ui:0.2.2'
+
+    /*CSV*/
+    implementation project(':opencsv-3.10')
+
+    implementation('com.crashlytics.sdk.android:crashlytics:2.9.5@aar') {
+        transitive = true;
+    }
+    /* For Google Play Services */
+    implementation 'com.google.android.gms:play-services-safetynet:17.0.0' // 9.2.1
+    implementation 'com.google.android.gms:play-services-auth:18.0.0'
+    /*compile 'com.google.android.gms:play-services:8.3.0'*/
+//    implementation 'com.google.android.gms:play-services:12.0.1' // 9.2.1
+    /* For Google Maps */
+    /*compile 'com.google.android.gms:play-services-maps:8.3.0'*/
+    implementation 'com.google.android.gms:play-services-maps:17.0.0' // 9.2.1
+    implementation 'com.google.android.gms:play-services-location:17.0.0' // 9.2.1
+    /* Google Guava */
+    implementation 'com.google.guava:guava:24.1-jre'
+    implementation 'org.greenrobot:eventbus:3.0.0'
+    implementation 'com.github.dkharrat.nexusdialog:nexusdialog:0.4.0'
+    /*GSON to store objects in user preferences*/
+    implementation 'com.google.code.gson:gson:2.7'
+    /*Logger*/
+    implementation 'com.bugfender.sdk:android:0.+'
+
+    // room library
+    /*implementation "android.arch.persistence.room:runtime:2.1.0"
+    annotationProcessor "android.arch.persistence.room:compiler:2.1.0"
+    testImplementation "android.arch.persistence.room:testing:2.1.0"*/
+
+    def room_version = "2.2.3"
+
+    implementation "androidx.room:room-runtime:$room_version"
+    annotationProcessor "androidx.room:room-compiler:$room_version" // For Kotlin use kapt instead of annotationProcessor
+    implementation "androidx.room:room-rxjava2:$room_version"
+    implementation "androidx.room:room-rxjava2:$room_version"
+
+    implementation 'androidx.localbroadcastmanager:localbroadcastmanager:1.0.0'
+    //implementation 'com.github.humazed:RoomAsset:v1.0'
+    //implementation files('/Users/chiaenchiang/Desktop/new/crowdsourceDectctionNew/opencsv-4.3.2.jar')
+
+}
+allprojects {
+    repositories {
+        jcenter()
+        maven { url "https://jitpack.io" }
+        maven { url 'https://maven.google.com' }
+        google()
+    }
+}

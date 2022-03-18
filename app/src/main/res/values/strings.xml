@@ -1,0 +1,82 @@
+<resources>
+    <string name="finish">完成</string>
+    <string name="next">下一頁</string>
+    <string name="app_name">News_Consumption</string>
+    <string name="accessibility_service_description">Hi</string>
+    <string name="Storage_permission">權限</string>
+    <string name="Setting">設定</string>
+    <string name="permission_request">This app need to access files on your device.</string>
+    <string name="no_text">No text found</string>
+    <string name="channel_name">Channel 20</string>
+    <string name="channel_description">Hello this is test</string>
+    <string name="checkbox">以後只使用Wifi上傳</string>
+    <string name="upload_string">上 傳</string>
+    <string name="PhotoAlbum">相 簿</string>
+    <string name="ESM">即時問卷</string>
+    <string name="diary">回顧問卷</string>
+    <string name="UserID">使用者編號 : </string>
+    <string name="DeviceID">設備編號 : </string>
+    <string name="PhoneType">手機型號 : </string>
+    <string name="AndroidVersion">Android版本 : </string>
+    <string name="path">檔案管理路徑 : 內建儲存空間/Pictures/News_Consumption/</string>
+    <string name="DialogTitle">即將上傳大量圖片</string>
+    <string name="DialogContent">將上傳大量資料，如要支付超額數據用量費用，請只使用Wi-Fi上傳。</string>
+    <string name="UseAny">立即上傳(透過任何網路)</string>
+    <string name="Wifi">使用Wifi上傳</string>
+    <string name="select_start_dialog_title">幾點開始</string>
+    <string name="select_end_dialog_title">幾點結束</string>
+    <string name="select_freq_dialog_title">每隔幾小時問一次</string>
+    <string-array name="start_list">
+        <item>5:00</item>
+        <item>6:00</item>
+        <item>7:00</item>
+        <item>8:00</item>
+        <item>9:00</item>
+        <item>10:00</item>
+        <item>11:00</item>
+        <item>12:00</item>
+        <item>13:00</item>
+        <item>14:00</item>
+        <item>15:00</item>
+        <item>16:00</item>
+    </string-array>
+    <string-array name="end_list">
+        <item>17:00</item>
+        <item>18:00</item>
+        <item>19:00</item>
+        <item>20:00</item>
+        <item>21:00</item>
+        <item>22:00</item>
+        <item>23:00</item>
+        <item>24:00</item>
+        <item>1:00</item>
+        <item>2:00</item>
+        <item>3:00</item>
+        <item>4:00</item>
+    </string-array>
+    <string-array name="shot_list">
+        <item>每次都詢問我</item>
+        <item>5分鐘後再詢問我</item>
+        <item>30分鐘後再詢問我</item>
+        <item>1小時後再詢問我</item>
+        <item>2小時後再詢問我</item>
+        <item>1天後再詢問我</item>
+    </string-array>
+    <string name="crop_image_activity_title"/>
+
+    <string name="crop_image_menu_rotate_left">逆時針旋轉</string>
+
+    <string name="crop_image_menu_rotate_right">旋轉</string>
+
+    <string name="crop_image_menu_crop">裁切</string>
+
+    <string name="crop_image_menu_flip">翻轉</string>
+
+    <string name="crop_image_menu_flip_horizontally">水平翻轉</string>
+
+    <string name="crop_image_menu_flip_vertically">垂直翻轉</string>
+
+    <string name="pick_image_intent_chooser_title">選擇來源</string>
+
+    <string name="crop_image_activity_no_permissions">取消中，未授予所需權限</string>
+</resources>

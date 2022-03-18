@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="NewsPack">
+        <item>com.udn.news</item>
+        <item>com.yahoo.mobile.client.android.newstw</item>
+        <item>com.totvnow.ttv</item>
+        <item>com.set.newsapp</item>
+        <item>tw.com.nexttv.tvnews</item>
+        <item>cc.nexdoor.ct.activity</item>
+        <item>com.news.ctsapp</item>
+        <item>net.ettoday.ETstar</item>
+        <item>net.ettoday.phone</item>
+        <item>com.formosatv.ftvnews</item>
+        <item>com.epochtimes.tw.android</item>
+        <item>com.ebc.news</item>
+        <item>com.tvbs.news</item>
+        <item>com.sina.news</item>
+        <item>com.nextmediatw</item>
+        <item>com.now.newsapp</item>
+        <item>bbc.mobile.news.ww</item>
+        <item>com.cnn.mobile.android.phone</item>
+        <item>tw.com.nextmedia.magazine</item>
+        <item>tw.net.ebc.fncyoutube</item>
+        <item>com.nownews</item>
+        <item>com.nextmedia</item>
+        <item>com.yahoo.mobile.client.android.superapp</item>
+        <item>com.greenhill.taiwan_news_yt</item>
+        <item>com.taiwan.news.rss.apps</item>
+        <item>m.cna.com.tw.App</item>
+        <item>com.ansami.taiwannews</item>
+        <item> com.createappv2.taiwan_news</item>
+        <item>tw.com.gamer.android.activecenter</item>
+        <item>com.theinitium.news</item>
+        <item>com.nytimes.android</item>
+        <item>tw.com.cw.commonwealth.cwapp</item>
+        <item>com.ltnnews.news</item>
+        <item>com.udn.econdailyplus</item>
+        <item>com.cnyes.android</item>
+        <item>com.womany.digest</item>
+        <item>com.olis.pts</item>
+        <item>jp.co.fenrir.tvAsahiNews</item>
+        <item>nhk.nhk_easy</item>
+        <item>com.csgroups.nhkeasynews</item>
+        <item>mobi.eup.jpnews</item>
+        <item>com.devhd.feedly</item>
+        <item>org.rti.Khanka</item>
+        <item>wsj.reader_sp</item>
+        <item>flipboard.app</item>
+        <item>jp.or.nhk.news</item>
+        <item>jp.co.yahoo.android.news</item>
+        <item>net.aljazeera.english</item>
+        <item>com.guardian</item>
+        <item>tw.com.ctee</item>
+    </string-array>
+    <string-array name="NewsName">
+        <item>udn News</item>
+        <item>新聞</item>
+        <item>台視新聞</item>
+        <item>三立新聞網</item>
+        <item>壹電視</item>
+        <item>旺旺中時</item>
+        <item>華視新聞</item>
+        <item>星光雲</item>
+        <item>新聞雲</item>
+        <item>民視新聞</item>
+        <item>台灣大紀元</item>
+        <item>東森新聞</item>
+        <item>TVBS新聞</item>
+        <item>新浪新闻</item>
+        <item>蘋果新聞網</item>
+        <item>Now 新聞</item>
+        <item>BBC News</item>
+        <item>CNN</item>
+        <item>台灣壹週刊</item>
+        <item>東森財經新聞</item>
+        <item>今日新聞</item>
+        <item>蘋果動新聞</item>
+        <item>Yahoo奇摩</item>
+        <item>台灣新聞台</item>
+        <item>台灣最新即時新聞</item>
+        <item>中央社</item>
+        <item>台灣新聞</item>
+        <item>台灣新聞-最新</item>
+        <item>巴哈姆特</item>
+        <item>端</item>
+        <item>NYTimes</item>
+        <item>天下雜誌</item>
+        <item>自由時報</item>
+        <item>經濟日報</item>
+        <item>鉅亨網</item>
+        <item>女人迷日報</item>
+        <item>公共電視</item>
+        <item>テレ朝news</item>
+        <item>NHK News Easy</item>
+        <item>NHK Easy News</item>
+        <item>Easy Japanese</item>
+        <item>Feedly</item>
+        <item>臺灣之音</item>
+        <item>WSJ</item>
+        <item>Flipboard</item>
+        <item>NHK NEWS</item>
+        <item>Yahoo!ニュース</item>
+        <item>AJ English</item>
+        <item>Guardian</item>
+        <item>工商時報</item>
+    </string-array>
+    <string-array name="HomePackage">
+        <item>com.android.launcher3</item>
+        <item>com.sonymobile.home</item>
+        <item>com.sonymobile.launcher</item>
+        <item>com.sec.android.app.launcher</item>
+        <item>com.htc.launcher</item>
+        <item>com.asus.launcher</item>
+        <item>com.lge.launcher3</item>
+        <item>com.oppo.launcher</item>
+        <item>com.bbk.launcher2</item>
+        <item>com.google.android.apps.nexuslauncher</item>
+    </string-array>
+    <string-array name="ChatRobot">
+        <item>三立新聞網 setn.com</item>
+<!--        <item>Lab Mui</item>-->
+    </string-array>
+    <string-array name="AppPackage">
+        <item>com.facebook.katana</item>
+        <item>com.google.android.apps.magazines</item>
+        <item>jp.naver.line.android</item>
+        <item>com.instagram.android</item>
+        <item>com.google.android.youtube</item>
+        <item>com.facebook.orca</item>
+        <item>com.google.android.googlequicksearchbox</item>
+    </string-array>
+    <string-array name="WebPackage">
+        <item>com.android.chrome</item>
+        <item>com.opera.browser</item>
+        <item>com.sec.android.app.sbrowser</item>
+        <item>com.miui.home</item>
+        <item>com.vivo.browser</item>
+    </string-array>
+    <string-array name="WebText">
+        <item>Chrome</item>
+        <item>Opera</item>
+        <item>網際網路</item>
+        <item>瀏覽器瀏覽器</item>
+        <item>瀏覽器</item>
+    </string-array>
+    <string-array name="PttPackage">
+        <item>mong.moptt</item>
+        <item>y_studio.ka5983.ptt2</item>
+        <item>com.ihad.ptt</item>
+        <item>com.bbs.reader</item>
+        <item>com.joshua.jptt</item>
+        <item>com.jiecode.ptt</item>
+    </string-array>
+</resources>

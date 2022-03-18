@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:clipToPadding="false"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding = "8dp">
+
+        <TextView
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/DialogContent"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:clipToPadding="false"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding = "8dp">
+        <RadioGroup
+            android:id="@+id/groupBroadcast"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="15dp">
+            <RadioButton
+                android:id="@+id/any"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/UseAny"
+                android:textSize="20sp"
+                android:layout_weight="1"
+                android:checked="true"
+                android:drawablePadding="30dp"
+                android:paddingLeft="10dp" />
+            <RadioButton
+                android:id="@+id/wifi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Wifi"
+                android:textSize="20sp"
+                android:layout_weight="1"
+                android:checked="false"
+                android:drawablePadding="20dp"
+                android:paddingLeft="10dp"
+                android:layout_marginTop="10dp"/>
+        </RadioGroup>
+    </LinearLayout>
+</LinearLayout>

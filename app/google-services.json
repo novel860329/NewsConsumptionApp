@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1037677317986",
+    "firebase_url": "https://news-on-social-media.firebaseio.com",
+    "project_id": "news-on-social-media",
+    "storage_bucket": "news-on-social-media.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1037677317986:android:4954f85f92d668f11da63b",
+        "android_client_info": {
+          "package_name": "com.example.accessibility_detect"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1037677317986-l1cfndc4kaog724pt3r5k9rbr2a518aa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBTcgN3Gxd6OHh1N0of0fw2hkfw0piLzA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1037677317986-l1cfndc4kaog724pt3r5k9rbr2a518aa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

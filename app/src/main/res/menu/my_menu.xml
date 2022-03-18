@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <item
+        android:id="@+id/Storage_permission"
+        android:orderInCategory="101"
+        android:title="@string/Storage_permission"
+        android:icon="@drawable/ic_gallery"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/Setting"
+        android:orderInCategory="101"
+        android:title="@string/Setting"
+        android:icon="@drawable/ic_gallery"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Result"
+        android:orderInCategory="101"
+        android:title="查看進度"
+        android:icon="@drawable/ic_gallery"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/Email"
+        android:orderInCategory="101"
+        android:title="寄信詢問"
+        android:icon="@drawable/ic_gallery"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/ESM_Test"
+        android:orderInCategory="101"
+        android:title="問卷測試"
+        android:icon="@drawable/ic_gallery"
+        app:showAsAction="never"/>
+</menu>

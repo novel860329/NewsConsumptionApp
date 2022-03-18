@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+
+    <ScrollView
+        android:id="@+id/diary_validation_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2">
+
+        <LinearLayout
+            android:id="@+id/diary_outer_linearlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/diary_textview_title"
+                style="?android:textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:lineSpacingMultiplier="1.2"
+                android:padding="16dp"
+                android:text="Title"
+                android:textSize="16sp" />
+            <View
+                android:id="@+id/diary_dividerInVR"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/divider"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/diary_textview_title"
+                />
+<!--        <LinearLayout-->
+<!--            android:id="@+id/diary_validation_linearlayout"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="horizontal">-->
+<!--        </LinearLayout>-->
+<!--            <EditText-->
+<!--                android:id="@+id/diary_editText_answer"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:inputType="number"-->
+<!--                android:layout_marginLeft="16dp"-->
+<!--                android:layout_marginRight="300dp" />-->
+        </LinearLayout>
+
+
+    </ScrollView>
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/diary_footer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        >
+
+    </include>
+
+
+</LinearLayout>

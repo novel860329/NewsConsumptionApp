@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:clipToPadding="false"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop = "10dp"
+        android:paddingLeft = "10dp">
+        <TextView
+            android:id="@+id/date_result"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:paddingLeft="10dip"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="你好啊我是誰">
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:clipToPadding="false"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop = "5dp"
+        android:paddingLeft = "10dp">
+        <TextView
+            android:id="@+id/textview_result"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:paddingLeft ="10dip"
+            android:textSize="18dip"
+            android:text="你好啊我是誰">
+        </TextView>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,1088 @@
+{
+  "data": {
+    "questions": [
+      {
+        "id": 1,
+        "question_type_id": 3,
+        "question_type_name": "CheckBox",
+        "question_name": "請問你在手機上使用了哪些平台？(可複選)",
+        "question_item": [
+          {
+            "answer_id": "1",
+            "name": "Facebook"
+          },
+          {
+            "answer_id": "2",
+            "name": "FB Messenger"
+          },
+          {
+            "answer_id": "3",
+            "name": "LINE 聊天室"
+          },
+          {
+            "answer_id": "4",
+            "name": "LINE Today"
+          },
+          {
+            "answer_id": "5",
+            "name": "Instagram"
+          },
+          {
+            "answer_id": "6",
+            "name": "新聞App"
+          },
+          {
+            "answer_id": "7",
+            "name": "推播通知"
+          },
+          {
+            "answer_id": "8",
+            "name": "Youtube"
+          },
+          {
+            "answer_id": "9",
+            "name": "PTT"
+          },
+          {
+            "answer_id": "10",
+            "name": "Google新聞/Google Now"
+          },
+          {
+            "answer_id": "11",
+            "name": "網頁瀏覽器"
+          },
+          {
+            "answer_id": "12",
+            "name": "都沒有"
+          },
+          {
+            "answer_id": "13",
+            "name": "其他"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "question_type_id": 1,
+        "question_type_name": "Radio",
+        "question_name": "空白頁",
+        "question_item": [
+        ]
+      },
+      {
+        "id": 3,
+        "question_type_id": 5,
+        "question_type_name": "CueRecall",
+        "question_name": "請問你在這（些）平台中<b><u>「最近期」且「有印象」</u></b>的一則新聞為何？",
+        "question_item": [
+          {
+            "answer_id": "14",
+            "name": "Cue Recall"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "question_type_id": 1,
+        "question_type_name": "Radio",
+        "question_name": "空白頁",
+        "question_item": [
+        ]
+      },
+      {
+        "id": 5,
+        "question_type_id": 10,
+        "question_type_name": "ImageCrop",
+        "question_name": "確認後請按下一頁，點擊圖片可再次裁剪",
+        "question_item": [
+        ]
+      },
+
+      {
+        "id": 6,
+        "question_type_id": 3,
+        "question_type_name": "CheckBox",
+        "question_name": "以下問題請針對你剛剛所選擇的新聞回答。請問你有沒有對這則新聞從事下列行為？（可複選）",
+        "question_item": [
+          {
+            "answer_id":"15",
+            "name":"滑過去"
+          },
+          {
+            "answer_id":"16",
+            "name":"點開這則新聞、看更多新聞內容摘要"
+          },
+          {
+            "answer_id":"17",
+            "name":"連到外部網站看完整新聞內容"
+          },
+          {
+            "answer_id":"18",
+            "name":"對這則新聞按讚、愛心"
+          },
+          {
+            "answer_id":"19",
+            "name":"對這則新聞留言"
+          },{
+            "answer_id":"20",
+            "name":"分享這則新聞至社群媒體的即時動態 (如：Facebook和Instagram的即時動態)"
+          },
+          {
+            "answer_id":"21",
+            "name":"私訊這則新聞給特定對象"
+          },
+          {
+            "answer_id":"22",
+            "name":"分享這則新聞到社團或群組"
+          },
+          {
+            "answer_id":"23",
+            "name":"搜尋這則新聞的相關資訊"
+          },
+          {
+            "answer_id":"24",
+            "name":"確認這則新聞真實性"
+          },
+          {
+            "answer_id":"25",
+            "name":"其他"
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "question_type_id": 1,
+        "question_type_name": "Radio",
+        "question_name": "請問這則新聞是由製作這則新聞的機構直接推送給你的嗎？(例如：臉書上由新聞機構所推送的新聞，或透過新聞app看到的新聞)",
+        "question_item": [
+          {
+            "answer_id":"26",
+            "name":"是"
+          },
+          {
+            "answer_id":"27",
+            "name":"否"
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "question_type_id": 1,
+        "question_type_name": "Radio",
+        "question_name": "請問是誰轉寄或分享給你的？",
+        "question_item": [
+          {
+            "answer_id": "28",
+            "name": "其他媒體平台或組織(如：公司行號、公家機關、學校)"
+          },
+          {
+            "answer_id": "29",
+            "name": "所追蹤的名人 (如：網紅)"
+          },
+          {
+            "answer_id": "30",
+            "name": "與興趣相關的社團或群組"
+          },
+          {
+            "answer_id": "31",
+            "name": "伴侶 (包含夫妻、男女朋友、同居人)"
+          },{
+            "answer_id": "32",
+            "name": "家人或親戚"
+          },
+          {
+            "answer_id": "33",
+            "name": "朋友"
+          },
+          {
+            "answer_id": "34",
+            "name": "同事或同學"
+          },
+          {
+            "answer_id": "35",
+            "name": "點頭之交"
+          },
+          {
+            "answer_id": "36",
+            "name": "鄰居"
+          },
+          {
+            "answer_id": "37",
+            "name": "陌生人"
+          },
+          {
+            "answer_id": "38",
+            "name": "不知道"
+          },
+          {
+            "answer_id": "39",
+            "name": "其他"
+          }
+        ]
+      },
+      {
+        "id":9,
+        "question_type_id": 1,
+        "question_type_name": "Radio",
+        "question_name": "空白頁",
+        "question_item": [
+        ]
+      },
+      {
+        "id": 10,
+        "question_type_id": 1,
+        "question_type_name": "Radio",
+        "question_name": "請問你同不同意「」對這則新聞的想法或態度？",
+        "question_item": [
+          {
+            "answer_id": "40",
+            "name": "非常不同意"
+          },
+          {
+            "answer_id": "41",
+            "name": "不同意"
+          },{
+            "answer_id": "42",
+            "name": "有點不同意"
+          },
+          {
+            "answer_id": "43",
+            "name": "沒有不同意、也沒有同意"
+          },
+          {
+            "answer_id": "44",
+            "name": "有點同意"
+          },
+          {
+            "answer_id": "45",
+            "name": "同意"
+          },
+          {
+            "answer_id": "46",
+            "name": "非常同意"
+          },
+          {
+            "answer_id": "47",
+            "name": "不適用：分享者對這則新聞沒有特定立場"
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "question_type_id": 1,
+        "question_type_name": "Radio",
+        "question_name": "請問你同不同意這則新聞所表達的立場？",
+        "question_item": [
+          {
+            "answer_id": "48",
+            "name": "非常不同意"
+          },
+          {
+            "answer_id": "49",
+            "name": "不同意"
+          },{
+            "answer_id": "50",
+            "name": "有點不同意"
+          },
+          {
+            "answer_id": "51",
+            "name": "沒有不同意、也沒有同意"
+          },
+          {
+            "answer_id": "52",
+            "name": "有點同意"
+          },
+          {
+            "answer_id": "53",
+            "name": "同意"
+          },
+          {
+            "answer_id": "54",
+            "name": "非常同意"
+          },
+          {
+            "answer_id": "55",
+            "name": "不適用：這則新聞沒有特定立場"
+          },
+          {
+            "answer_id": "56",
+            "name": "不適用：你沒有特定立場"
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "question_type_id": 1,
+        "question_type_name": "Radio",
+        "question_name": "請問這則新聞與哪個主題最相關?",
+        "question_item": [
+          {
+            "answer_id": "63",
+            "name": "政府與政治（例如：政治人物、中央與地方政府、政黨、兩岸、外交）"
+          },{
+            "answer_id": "64",
+            "name": "經濟、商業或財經（例如：金融市場、投資、企管行銷）"
+          },
+          {
+            "answer_id": "65",
+            "name": "社會議題（例如：人權、長照、核能、空汙）"
+          },
+          {
+            "answer_id": "66",
+            "name": "運動（例如：各式業餘或職業運動賽事）"
+          },{
+            "answer_id": "67",
+            "name": "科學或科技（例如：資訊科技、科學新知）"
+          },
+          {
+            "answer_id": "68",
+            "name": "健康（例如：保健、養身、醫療）"
+          },{
+            "answer_id": "69",
+            "name": "災難或意外（例如：地震、火災）"
+          },
+          {
+            "answer_id": "70",
+            "name": "奇聞軼事（例如：不明生物、11胞胎、男人生育）"
+          },
+          {
+            "answer_id": "71",
+            "name": "娛樂（例如：音樂、藝人、電影、戲劇）"
+          },
+          {
+            "answer_id": "72",
+            "name": "生活日常（例如：天氣、交通）"
+          },
+          {
+            "answer_id": "73",
+            "name": "其他"
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "question_type_id": 3,
+        "question_type_name": "CheckBox",
+        "question_name": "請問當時使用手機看新聞的原因是什麼?(可複選)",
+        "question_item": [
+          {
+            "answer_id": "74",
+            "name": "為了獲得新聞資訊"
+          },{
+            "answer_id": "75",
+            "name": "因為手機提醒(如：訊息通知)"
+          },
+          {
+            "answer_id": "76",
+            "name": "為了娛樂"
+          },{
+            "answer_id": "77",
+            "name": "為了放鬆或打發時間"
+          },
+          {
+            "answer_id": "78",
+            "name": "為了學習或工作"
+          },
+          {
+            "answer_id": "79",
+            "name": "為了社交"
+          },
+          {
+            "answer_id": "80",
+            "name": "因為習慣"
+          },
+          {
+            "answer_id": "81",
+            "name": "其他"
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "question_type_id": 1,
+        "question_type_name": "Radio",
+        "question_name": "請問你當時有多專注閱讀這則新聞?",
+        "question_item": [
+          {
+            "answer_id": "82",
+            "name": "非常不專注"
+          },
+          {
+            "answer_id": "83",
+            "name": "不專注"
+          },
+          {
+            "answer_id": "84",
+            "name": "有點不專注"
+          },
+          {
+            "answer_id": "85",
+            "name": "沒有不專注、也沒有專注"
+          },{
+            "answer_id": "86",
+            "name": "有點專注"
+          },
+          {
+            "answer_id": "87",
+            "name": "專注"
+          },
+          {
+            "answer_id": "88",
+            "name": "非常專注"
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "question_type_id": 1,
+        "question_type_name": "Radio",
+        "question_name": "請問你覺得你有多了解該則新聞的內容?",
+        "question_item": [
+          {
+            "answer_id": "96",
+            "name": "非常不了解"
+          },
+          {
+            "answer_id": "97",
+            "name": "不了解"
+          },
+          {
+            "answer_id": "98",
+            "name": "有點不了解"
+          },
+          {
+            "answer_id": "99",
+            "name": "沒有不了解、也沒有了解"
+          },{
+            "answer_id": "100",
+            "name": "有點了解"
+          },
+          {
+            "answer_id": "101",
+            "name": "了解"
+          },
+          {
+            "answer_id": "102",
+            "name": "非常了解"
+          }
+        ]
+      },
+
+      {
+        "id": 16,
+        "question_type_id": 1,
+        "question_type_name": "Radio",
+        "question_name": "請問你相不相信這則新聞的內容？",
+        "question_item": [
+          {
+            "answer_id": "103",
+            "name": "非常不相信"
+          },
+          {
+            "answer_id": "104",
+            "name": "不相信"
+          },
+          {
+            "answer_id": "105",
+            "name": "有點不相信"
+          },
+          {
+            "answer_id": "106",
+            "name": "沒有不相信、也沒有相信"
+          },{
+            "answer_id": "107",
+            "name": "有點相信"
+          },
+          {
+            "answer_id": "108",
+            "name": "相信"
+          },
+          {
+            "answer_id": "109",
+            "name": "非常相信"
+          }
+        ]
+      },
+
+      {
+        "id": 17,
+        "question_type_id": 1,
+        "question_type_name": "Radio",
+        "question_name": "請問你同不同意，這則新聞讓你想到自己的生活經驗？",
+        "question_item": [
+          {
+            "answer_id": "110",
+            "name": "非常不同意"
+          },
+          {
+            "answer_id": "111",
+            "name": "不同意"
+          },
+          {
+            "answer_id": "112",
+            "name": "有點不同意"
+          },
+          {
+            "answer_id": "113",
+            "name": "沒有不同意、也沒有同意"
+          },{
+            "answer_id": "114",
+            "name": "有點同意"
+          },
+          {
+            "answer_id": "115",
+            "name": "同意"
+          },
+          {
+            "answer_id": "116",
+            "name": "非常同意"
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "question_type_id": 1,
+        "question_type_name": "Radio",
+        "question_name": "請問你同不同意，這則新聞讓你想到其他重要社會議題？",
+        "question_item": [
+          {
+            "answer_id": "117",
+            "name": "非常不同意"
+          },
+          {
+            "answer_id": "118",
+            "name": "不同意"
+          },
+          {
+            "answer_id": "119",
+            "name": "有點不同意"
+          },
+          {
+            "answer_id": "120",
+            "name": "沒有不同意、也沒有同意"
+          },{
+            "answer_id": "121",
+            "name": "有點同意"
+          },
+          {
+            "answer_id": "122",
+            "name": "同意"
+          },
+          {
+            "answer_id": "123",
+            "name": "非常同意"
+          }
+        ]
+      },
+
+      {
+        "id": 19,
+        "question_type_id": 1,
+        "question_type_name": "Radio",
+        "question_name": "當你看到這則新聞時，請問你感到<b><u>生氣</u></b>的程度為何？",
+        "question_item": [
+          {
+            "answer_id": "124",
+            "name": "完全不生氣"
+          },
+          {
+            "answer_id": "125",
+            "name": "不生氣"
+          },
+          {
+            "answer_id": "126",
+            "name": "不太生氣"
+          },
+          {
+            "answer_id": "127",
+            "name": "沒有不生氣、也沒有生氣"
+          },
+          {
+            "answer_id": "128",
+            "name": "有點生氣"
+          },{
+            "answer_id": "129",
+            "name": "生氣"
+          },
+          {
+            "answer_id": "130",
+            "name": "很生氣"
+          }
+        ]
+      },
+      {
+        "id": 20,
+        "question_type_id": 1,
+        "question_type_name": "Radio",
+        "question_name": "當你看到這則新聞時，請問你感到<b><u>害怕</u></b>的程度為何？",
+        "question_item": [
+          {
+            "answer_id": "131",
+            "name": "完全不害怕"
+          },
+          {
+            "answer_id": "132",
+            "name": "不害怕"
+          },
+          {
+            "answer_id": "133",
+            "name": "不太害怕"
+          },
+          {
+            "answer_id": "134",
+            "name": "沒有不害怕、也沒有害怕"
+          },
+          {
+            "answer_id": "135",
+            "name": "有點害怕"
+          },{
+            "answer_id": "136",
+            "name": "害怕"
+          },
+          {
+            "answer_id": "137",
+            "name": "很害怕"
+          }
+        ]
+      },
+      {
+        "id": 21,
+        "question_type_id": 1,
+        "question_type_name": "Radio",
+        "question_name": "當你看到這則新聞時，請問你感到<b><u>開心</u></b>的程度為何？",
+        "question_item": [
+          {
+            "answer_id": "138",
+            "name": "完全不開心"
+          },
+          {
+            "answer_id": "139",
+            "name": "不開心"
+          },
+          {
+            "answer_id": "140",
+            "name": "有點不開心"
+          },
+          {
+            "answer_id": "141",
+            "name": "沒有不開心、也沒有開心"
+          },
+          {
+            "answer_id": "142",
+            "name": "有點開心"
+          },{
+            "answer_id": "143",
+            "name": "開心"
+          },
+          {
+            "answer_id": "144",
+            "name": "很開心"
+          }
+        ]
+      },
+      {
+        "id": 22,
+        "question_type_id": 1,
+        "question_type_name": "Radio",
+        "question_name": "當你看到這則新聞時，請問你感到<b><u>滿意</u></b>的程度為何？",
+        "question_item": [
+          {
+            "answer_id": "138",
+            "name": "完全不滿意"
+          },
+          {
+            "answer_id": "139",
+            "name": "不滿意"
+          },
+          {
+            "answer_id": "140",
+            "name": "有點不滿意"
+          },
+          {
+            "answer_id": "141",
+            "name": "沒有不滿意、也沒有滿意"
+          },
+          {
+            "answer_id": "142",
+            "name": "有點滿意"
+          },{
+            "answer_id": "143",
+            "name": "滿意"
+          },
+          {
+            "answer_id": "144",
+            "name": "很滿意"
+          }
+        ]
+      },
+
+      {
+        "id": 23,
+        "question_type_id": 1,
+        "question_type_name": "Radio",
+        "question_name": "請問你同不同意:「你在看該則新聞時，有試圖找出新聞中的缺失 (例如：內容會誤導人、來源不明確)」?",
+        "question_item": [
+          {
+            "answer_id": "145",
+            "name": "非常不同意"
+          },
+          {
+            "answer_id": "146",
+            "name": "不同意"
+          },{
+            "answer_id": "147",
+            "name": "有點不同意"
+          },
+          {
+            "answer_id": "148",
+            "name": "沒有不同意、也沒有同意"
+          },{
+            "answer_id": "149",
+            "name": "有點同意"
+          },
+          {
+            "answer_id": "150",
+            "name": "同意"
+          },
+          {
+            "answer_id": "151",
+            "name": "非常同意"
+          }
+        ]
+      },
+      {
+        "id": 24,
+        "question_type_id": 1,
+        "question_type_name": "Radio",
+        "question_name": "請問當時你除了使用手機讀新聞外，同時還有做其他事情嗎？(例如：處理家務、移動中、工作或學習、用餐、從事娛樂或休閒活動、與朋友聊天）",
+        "question_item": [
+          {
+            "answer_id": "152",
+            "name": "有"
+          },{
+            "answer_id": "153",
+            "name": "沒有"
+          }
+        ]
+      },
+      {
+        "id": 25,
+        "question_type_id": 3,
+        "question_type_name": "CheckBox",
+        "question_name": "請問當時你除了使用手機讀新聞外，同時還有做下列哪些事情? (可複選)",
+        "question_item": [
+          {
+            "answer_id": "161",
+            "name": "在網路上從事家務或責任相關事務 (如買菜、掛號、處理公務)"
+          },{
+            "answer_id": "162",
+            "name": "在公共空間（如賣場或公務單位）從事家務或責任相關事務（如買菜、看病、處理公務）"
+          },{
+            "answer_id": "163",
+            "name": "在私人空間（如家裡）從事家務或責任相關事務（如洗衣、打掃）"
+          },
+          {
+            "answer_id": "164",
+            "name": "走路"
+          },{
+            "answer_id": "165",
+            "name": "搭大眾交通運輸工具"
+          },{
+            "answer_id": "166",
+            "name": "搭私人交通工具如汽車、機車"
+          },{
+            "answer_id": "167",
+            "name": "開汽車"
+          },
+          {
+            "answer_id": "168",
+            "name": "騎機車或腳踏車"
+          },{
+            "answer_id": "169",
+            "name": "在公共空間（如公司）工作"
+          },
+          {
+            "answer_id": "170",
+            "name": "在私人空間（如家裡）工作"
+          },
+          {
+            "answer_id": "171",
+            "name": "在公共空間（如學校）學習"
+          },
+          {
+            "answer_id": "172",
+            "name": "在私人空間（如家裡）學習"
+          },
+          {
+            "answer_id": "173",
+            "name": "在公共空間（如餐廳）吃飯或喝東西"
+          },{
+            "answer_id": "174",
+            "name": "在私人空間（如家裡）吃飯或喝東西"
+          },
+          {
+            "answer_id": "175",
+            "name": "在網路上從事娛樂、休閒活動"
+          },
+          {
+            "answer_id": "176",
+            "name": "在公共空間（如戶外）從事娛樂、休閒活動，或運動"
+          },
+          {
+            "answer_id": "177",
+            "name": "在私人空間（如家裡）從事娛樂、休閒活動，或運動"
+          },
+          {
+            "answer_id": "178",
+            "name": "在網路上與家人、朋友、同學或同事聊天"
+          },
+          {
+            "answer_id": "179",
+            "name": "在公共空間（如公司、學校）與家人、朋友、同學或同事聊天"
+          },
+          {
+            "answer_id": "180",
+            "name": "在私人空間（如家裡）與家人、朋友、同學或同事面對面聊天"
+          },
+          {
+            "answer_id": "181",
+            "name": "其他"
+          }
+        ]
+      },
+      {
+        "id": 26,
+        "question_type_id": 1,
+        "question_type_name": "Radio",
+        "question_name": "空白頁",
+        "question_item": [
+        ]
+      },
+      {
+        "id": 27,
+        "question_type_id": 3,
+        "question_type_name": "CheckBox",
+        "question_name": "請問你在「」時，同時還使用其他媒體嗎？(可複選)",
+        "question_item": [
+          {
+            "answer_id": "182",
+            "name": "平板"
+          },{
+            "answer_id": "183",
+            "name": "筆記型或桌上型電腦"
+          },
+          {
+            "answer_id": "184",
+            "name": "電視"
+          },{
+            "answer_id": "185",
+            "name": "電視遊樂器"
+          },
+          {
+            "answer_id": "187",
+            "name": "其他"
+          },
+          {
+            "answer_id": "186",
+            "name": "沒有使用其他媒體"
+          }
+        ]
+      },
+      {
+        "id": 28,
+        "question_type_id": 1,
+        "question_type_name": "Radio",
+        "question_name": "請問在當時，「」與「用手機看新聞」哪個是主要活動? (需要優先完成、比較重要的活動)",
+        "question_item": [
+          {
+            "answer_id": "188",
+            "name": " "
+          },{
+            "answer_id": "189",
+            "name": "用手機看新聞"
+          }
+        ]
+      },
+      {
+        "id": 29,
+        "question_type_id": 1,
+        "question_type_name": "Radio",
+        "question_name": "空白頁",
+        "question_item": [
+        ]
+      },
+      {
+        "id": 30,
+        "question_type_id": 1,
+        "question_type_name": "Radio",
+        "question_name": "請問在當時，「用手機看新聞」是為了「」嗎?",
+        "question_item": [
+          {
+            "answer_id": "190",
+            "name": "是"
+          },{
+            "answer_id": "191",
+            "name": "否"
+          }
+        ]
+      },
+      {
+        "id": 31,
+        "question_type_id": 4,
+        "question_type_name": "SeekBar",
+        "question_name": "請問你「」已經花了多少時間?",
+        "question_item": [
+          {
+            "answer_id": "192",
+            "name": "小時 (0 ~ 12)"
+          },{
+            "answer_id": "193",
+            "name": "分鐘 (0 ~ 59)"
+          }
+        ]
+      },
+      {
+        "id": 32,
+        "question_type_id": 1,
+        "question_type_name": "Radio",
+        "question_name": "對你來說，請問「」時，你感受到<b><u>無聊</u></b>的程度為何？",
+        "question_item": [
+          {
+            "answer_id": "194",
+            "name": "完全不無聊"
+          },
+          {
+            "answer_id": "195",
+            "name": "不無聊"
+          },
+          {
+            "answer_id": "196",
+            "name": "不太無聊"
+          },
+          {
+            "answer_id": "197",
+            "name": "沒有不無聊、也沒有無聊"
+          },
+          {
+            "answer_id": "198",
+            "name": "有點無聊"
+          },{
+            "answer_id": "199",
+            "name": "無聊"
+          },
+          {
+            "answer_id": "200",
+            "name": "很無聊"
+          }
+        ]
+      },
+      {
+        "id": 33,
+        "question_type_id": 1,
+        "question_type_name": "Radio",
+        "question_name": "對你來說，請問「」時，你感受到<b><u>焦慮</u></b>的程度為何？",
+        "question_item": [
+          {
+            "answer_id": "201",
+            "name": "完全不焦慮"
+          },
+          {
+            "answer_id": "202",
+            "name": "不焦慮"
+          },
+          {
+            "answer_id": "203",
+            "name": "不太焦慮"
+          },
+          {
+            "answer_id": "204",
+            "name": "沒有不焦慮、也沒有焦慮"
+          },
+          {
+            "answer_id": "205",
+            "name": "有點焦慮"
+          },{
+            "answer_id": "205",
+            "name": "焦慮"
+          },
+          {
+            "answer_id": "207",
+            "name": "很焦慮"
+          }
+        ]
+      },
+      {
+        "id": 34,
+        "question_type_id": 1,
+        "question_type_name": "Radio",
+        "question_name": "對你來說，請問「」時，你感受到<b><u>開心</u></b>的程度為何？",
+        "question_item": [
+          {
+            "answer_id": "208",
+            "name": "完全不開心"
+          },
+          {
+            "answer_id": "209",
+            "name": "不開心"
+          },
+          {
+            "answer_id": "210",
+            "name": "不太開心"
+          },
+          {
+            "answer_id": "211",
+            "name": "沒有不開心、也沒有開心"
+          },
+          {
+            "answer_id": "212",
+            "name": "有點開心"
+          },{
+            "answer_id": "213",
+            "name": "開心"
+          },
+          {
+            "answer_id": "214",
+            "name": "很開心"
+          }
+        ]
+      },
+      {
+        "id": 35,
+        "question_type_id": 1,
+        "question_type_name": "Radio",
+        "question_name": "對你來說，請問「」時，你感受到<b><u>滿意</u></b>的程度為何？",
+        "question_item": [
+          {
+            "answer_id": "215",
+            "name": "完全不滿意"
+          },
+          {
+            "answer_id": "216",
+            "name": "不滿意"
+          },
+          {
+            "answer_id": "217",
+            "name": "不太滿意"
+          },
+          {
+            "answer_id": "218",
+            "name": "沒有不滿意、也沒有滿意"
+          },
+          {
+            "answer_id": "219",
+            "name": "有點滿意"
+          },{
+            "answer_id": "220",
+            "name": "滿意"
+          },
+          {
+            "answer_id": "221",
+            "name": "很滿意"
+          }
+        ]
+      }
+    ]
+  },
+  "status": true,
+  "message": "The data was fetched successfully"
+}
