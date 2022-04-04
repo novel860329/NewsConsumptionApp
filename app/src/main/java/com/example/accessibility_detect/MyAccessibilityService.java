@@ -1493,7 +1493,8 @@ public class MyAccessibilityService extends AccessibilityService{
                 if(appInfo != null && nowappInfo != null) {
                     if (!((appInfo.flags & ApplicationInfo.FLAG_SYSTEM) > 0) && !((nowappInfo.flags & ApplicationInfo.FLAG_SYSTEM) > 0)
                             && EventType != AccessibilityEvent.TYPE_NOTIFICATION_STATE_CHANGED
-                            && !EventPackage.equals("com.example.accessibility_detect") && !now_active.equals("com.example.accessibility_detect")) {
+                            && !EventPackage.equals("com.example.accessibility_detect") && !now_active.equals("com.example.accessibility_detect")
+                            && !EventPackage.equals("com.google.android.apps.magazines") && !now_active.equals("com.google.android.apps.magazines")) {
                         change_app = true;
                     }
 
@@ -1508,7 +1509,7 @@ public class MyAccessibilityService extends AccessibilityService{
                     home = true;
 //                    CSVHelper.storeToCSV("AccessibilityDetect.csv",  "Google now interrupted by messenger, reading set to false, home set to true");
                 }
-                Log.d(TAG, "Home first: " + home_first);
+//                Log.d(TAG, "Home: " + home + " " + change_app );
                 boolean question_interrupt = pref.getBoolean("Question_interrupt",false);
 
                 if ((home || question_interrupt) && !reading) {
